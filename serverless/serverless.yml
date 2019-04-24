@@ -1,0 +1,12 @@
+service: FacialRecognitionBlog
+plugins:
+  - serverless-plugin-typescript
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: eu-west-1
+functions:
+  facialRecognition:
+    handler: handler.facialRecognition
+    events:
+      - stream: arn:aws:kinesis:eu-west-1:804937996574:stream/FacialRecognition
