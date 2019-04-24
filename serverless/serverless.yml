@@ -9,6 +9,6 @@ functions:
   facialRecognition:
     handler: handler.facialRecognition
     environmentVariables:
-      - snsTopic: arn:aws:sns:eu-west-1:804937996574:FacialRecognition
+      snsTopic: arn:aws:sns:eu-west-1:804937996574:FacialRecognition
     events:
       - stream: arn:aws:kinesis:eu-west-1:804937996574:stream/FacialRecognition
