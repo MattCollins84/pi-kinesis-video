@@ -17,7 +17,7 @@ export class FacialRecognition {
       const payload = JSON.parse(load);
 
       const faces = payload.FaceSearchResponse;
-      if (faces === null) return 'No Faces found'
+      if (faces === null || faces.length === 0) return 'No Faces found'
       
       console.log(faces.length, 'faces found')
       const opts = {
