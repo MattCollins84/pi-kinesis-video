@@ -8,7 +8,7 @@ provider:
   iamRoleStatements:
     - Effect: "Allow"
       Action:
-        - "sns:publish"
+        - "sns:Publish"
       Resource: "*"
 functions:
   facialRecognition:
