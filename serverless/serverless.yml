@@ -1,4 +1,4 @@
-service: FacialRecognitionBlog
+service: FacialRecognitionExample
 plugins:
   - serverless-plugin-typescript
 provider:
