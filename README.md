@@ -2,6 +2,7 @@
 Use a Raspberry Pi and Amazon Kinesis Video Streams to perform facial recognition on a live video stream.
 
 [Link to article (Part 1)](https://medium.com/@matt.collins/facial-recognition-with-a-raspberry-pi-and-kinesis-video-streams-part-1-662f0bec5488)
+
 [Link to article (Part 2)](https://medium.com/@matt.collins/facial-recognition-with-a-raspberry-pi-and-kinesis-video-streams-part-2-9c9a631e8c24)
 
 Uses the following tech:
